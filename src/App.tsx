@@ -4,7 +4,7 @@ import * as React from 'react';
 import {Camera, CameraType, FaceDetectionResult} from 'expo-camera';
 import {Alert, Dimensions, StyleSheet, Text, View} from 'react-native';
 import {AnimatedCircularProgress} from 'react-native-circular-progress';
-import {contains, Rect} from './src/contains';
+import {contains, Rect} from './contains';
 import MaskedView from '@react-native-masked-view/masked-view';
 
 interface FaceDetection {
